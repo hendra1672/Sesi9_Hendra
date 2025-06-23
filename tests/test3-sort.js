@@ -39,6 +39,7 @@
         assert.strictEqual(isProductDisplayed, true, 'The "Test.allTheThings() T-Shirt (Red)" product should be displayed.');
         console.log('Berhasil mengklik opsi "Name (Z to A)".');
 
+        await driver.sleep(1700)
         await driver.quit()
 
     });
