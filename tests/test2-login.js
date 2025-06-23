@@ -37,6 +37,7 @@
             assert.strictEqual(actualErrorMessage, 'Epic sadface: Username and password do not match any user in this service', 'Pesan error tidak sesuai dengan yang diharapkan.');
 
         //  Driver akan ditutup
+            await driver.sleep(1000)
             await driver.quit();
             
     })
@@ -74,6 +75,7 @@
                 console.log('Login successful and page title "Swag Labs" is correct.');
                 
             //  Driver akan ditutup
+                await driver.sleep(1000)
                 await driver.quit();
 
     })
